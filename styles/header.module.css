@@ -1,7 +1,7 @@
 .header {
   color: lightcoral;
   background-color: darkmagenta;
-    /* backdrop-filter: blur(10px);   */
+  /* backdrop-filter: blur(10px);   */
   height: 80px;
   width: 100%;
   display: flex;
@@ -46,7 +46,7 @@
   border-radius: 20px;
   border: none;
   outline: none;
-  background-color:  rgba(46, 229, 157, 0.4);
+  background-color: rgba(46, 229, 157, 0.4);
   color: rgb(0, 0, 0);
   background-image: linear-gradient(to right, transparent 0%, #00c9ff 100%);
   transition: all 240ms ease-in-out;
