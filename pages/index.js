@@ -10,7 +10,6 @@ export default function Home() {
         <meta name="description" content="Mohammed Mubarak" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <div>
         <Header />
         <Landing />
