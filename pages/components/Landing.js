@@ -1,9 +1,9 @@
 import React from "react";
-
+import styles from "../../styles/landing.module.css";
 export default function Landing() {
   return (
-    <div>
-      <h1> I'm Landing</h1>
+    <div className={styles.landing}>
+      <h1>I'm Mubarak</h1>
     </div>
   );
 }
