@@ -4,8 +4,8 @@ import styles from "../../styles/header.module.css";
 export default function Header() {
   const router = useRouter();
 
-  const changeHandler = () => {
-    router.push('/home');
+  const changeHandler = (value) => {
+    router.push('/' + value);
   }
 
   return (
@@ -14,8 +14,8 @@ export default function Header() {
         MK<span>.</span>
       </h1>
       <ul className={styles.navlist}>
-        <li onClick={changeHandler}>Home</li>
-        <li>About</li>
+        <li onClick={() => changeHandler('home')}>Home</li>
+        <li onClick={() => changeHandler('about')}>About</li>
         <li>Resume</li>
         <li>Projects</li>
       </ul>
