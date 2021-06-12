@@ -2,6 +2,7 @@
   color: lightcoral;
   background-color: darkmagenta;
   /* backdrop-filter: blur(10px);   */
+  position: fixed;
   height: 80px;
   width: 100%;
   display: flex;

@@ -1,8 +1,10 @@
 import Head from "next/head";
-import Header from "./components/Header";
-import Landing from "./components/Landing";
-import Footer from "./components/Footer";
-export default function Home() {
+import Header from "../components/Header";
+import Landing from "../components/Landing";
+import Footer from "../components/Footer";
+import Home from "../components/Home";
+import About from "../components/About";
+export default function Index() {
   return (
     <div>
       <Head>
@@ -11,8 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        {/* <Header /> */}
-        <Landing />
+        <Home />
+        <About />
         <Footer />
       </div>
     </div>
