@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
 import styles from "../styles/home.module.css";
 import Typical from "./Typical";
+import Image from "next/image";
+// import blurimage from './assets/blur.png'
 const Home = (props) => {
   return (
     <div id="home" className={styles.homeDiv}>
@@ -17,6 +19,30 @@ const Home = (props) => {
           {/* Typical is a component for typing style */}
           <Typical />
         </p>
+      </div>
+      <div className={styles.box}>
+        <div>
+          <div className={styles.imagePosition}>
+            <Image
+              src="/muba.png"
+              alt="Picture of the author"
+              width={530}
+              height={530}
+            />
+          </div>
+          <svg
+            width="554px"
+            height="654px"
+            viewBox="0 0 160 190"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="#FF0066"
+              d="M54.3,-21.4C61.8,5.4,53.4,33.7,34.2,47.8C15,61.9,-15,61.9,-32.4,48.3C-49.9,34.8,-54.8,7.7,-47.3,-19.1C-39.8,-45.9,-19.9,-72.4,1.7,-72.9C23.4,-73.5,46.8,-48.1,54.3,-21.4Z"
+              transform="translate(100 100)"
+            />
+          </svg>
+        </div>
       </div>
     </div>
   );

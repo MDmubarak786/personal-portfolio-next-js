@@ -1,10 +1,12 @@
 .homeDiv {
-  padding-top: 90px;
   height: 100vh;
   background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 .centerPart {
-  padding: 150px 250px;
+  /* padding: 110px 150px; */
   line-height: 1.2;
   /* position: relative; */
 }
@@ -18,4 +20,17 @@
   display: block;
   margin-block-start: 1em;
   max-width: 460px;
+}
+.box {
+  /* background-color: black; */
+  color: white;
+  /* height: 600px; */
+  padding-top: 90px;
+  width: 500px;
+}
+
+.imagePosition {
+  position: absolute;
+  top: 100px;
+  left: 1100px;
 }
