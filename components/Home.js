@@ -2,8 +2,12 @@ import PropTypes from "prop-types";
 import styles from "../styles/home.module.css";
 import Typical from "./Typical";
 import Image from "next/image";
+import Link from "next/link";
 // import blurimage from './assets/blur.png'
 const Home = (props) => {
+  const redirectHandler = (value) => {
+    window.location.href = "#" + value;
+  };
   return (
     <div id="home" className={styles.homeDiv}>
       <div className={styles.centerPart}>
@@ -15,20 +19,27 @@ const Home = (props) => {
           Through constant practice & learning, I produce aesthetic software to
           an extremely high standard.
         </p>
-        <p>
+        <p style={{ fontSize: "18px" }}>
           {/* Typical is a component for typing style */}
           <Typical />
         </p>
+        <div className={styles.scrollDown}>
+          <h1 onClick={() => redirectHandler("about")}>
+            &darr; scroll down &darr;
+          </h1>
+        </div>
       </div>
+
       <div className={styles.box}>
         <div>
           <div className={styles.imagePosition}>
-            <Image
+            {/* this place for add our image on blob that for this component  */}
+            {/* <Image
               src="/muba.png"
-              alt="Picture of the author"
+              alt="Picture of the author" 
               width={530}
               height={530}
-            />
+            /> */}
           </div>
           <svg
             width="554px"

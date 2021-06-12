@@ -34,3 +34,24 @@
   top: 100px;
   left: 1100px;
 }
+
+.scrollDown h1 {
+  position: absolute;
+  font-weight: 400;
+  bottom: 80px;
+  font-size: 25px;
+  line-height: 1px;
+  background-color: ivory;
+  height: 36px;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 15px;
+  animation: MoveUpDown 1.35s linear infinite;
+  min-width: 200px;
+  cursor: pointer;
+}
+@keyframes MoveUpDown {
+  50% {
+    transform: translateY(0.5rem);
+  }
+}
