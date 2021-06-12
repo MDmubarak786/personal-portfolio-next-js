@@ -3,3 +3,19 @@
   height: 100vh;
   background-color: bisque;
 }
+.centerPart {
+  padding: 150px 250px;
+  line-height: 1.2;
+  /* position: relative; */
+}
+
+.centerPart h3 {
+  font-weight: 300;
+  color: rgb(119, 119, 121);
+  margin-block-start: 0.1em;
+}
+.centerPart p {
+  display: block;
+  margin-block-start: 1em;
+  max-width: 460px;
+}
