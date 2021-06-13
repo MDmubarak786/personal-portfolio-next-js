@@ -3,21 +3,8 @@ import Image from "next/image";
 import styles from "../styles/blobanimi.module.css";
 export default function Footer() {
   return (
-    <div
-      style={{
-        backgroundColor: "black",
-        height: "780px",
-        width: "100%",
-        overflow: "hidden",
-      }}
-    >
-      <h1
-        style={{
-          position: "absolute",
-          color: "white",
-          // zIndex: "2",
-        }}
-      >
+    <div className={styles.footer}>
+      <h1 >
         do you like this style ,"center this part \& we will design this part
         later"
       </h1>

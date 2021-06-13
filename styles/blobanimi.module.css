@@ -30,10 +30,16 @@
 }
 
 /* footer part css styles */
+.footer {
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+}
+.footer h1 {
+  color: aliceblue;
+}
 .caveEffect {
-  padding-top: 100px;
-  width: auto;
+  padding-top: 150px;
   fill: "none";
   transform: scale(1.2);
-  height: 100vh;
 }
