@@ -37,7 +37,8 @@
 
 .headingName {
   font-size: 40px;
-  font-weight: 600;
+  /* font-weight: 600; */
+  font-family: 'Akronim';
 }
 .contact {
   display: flex;
