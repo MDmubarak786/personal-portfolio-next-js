@@ -3,6 +3,8 @@ import styles from "../styles/home.module.css";
 import Typical from "./Typical";
 import Image from "next/image";
 import Link from "next/link";
+import blobstyles from "../styles/blobanimi.module.css";
+
 // import blurimage from './assets/blur.png'
 const Home = (props) => {
   const redirectHandler = (value) => {
@@ -10,9 +12,72 @@ const Home = (props) => {
   };
   return (
     <div id="home" className={styles.homeDiv}>
+      <div
+        className={blobstyles.blob}
+        style={{
+          height: "630px",
+          width: "500px",
+          backgroundColor: "rgb(255, 0, 102)",
+        }}
+      ></div>
+      <div
+        className={blobstyles.blob}
+        style={{
+          height: "130px",
+          width: "200px",
+          position: "absolute",
+          left: "600px",
+          top: "200px",
+          backgroundColor: "red",
+        }}
+      ></div>
+      <div
+        className={blobstyles.blob}
+        style={{
+          height: "150px",
+          width: "400px",
+          position: "absolute",
+          bottom: "0px",
+          left: "990px",
+          top: "0px",
+          backgroundColor: "black",
+        }}
+      ></div>
+      <div
+        className={blobstyles.blob}
+        style={{
+          height: "130px",
+          width: "200px",
+          position: "absolute",
+          left: "900px",
+          top: "500px",
+          backgroundColor: "violet",
+          opacity: "0.15",
+        }}
+      ></div>
+      <div
+        className={blobstyles.blob}
+        style={{
+          height: "80px",
+          width: "90px",
+          position: "absolute",
+          bottom: "100px",
+          left: "500px",
+          backgroundColor: "pink",
+          opacity: "0.6",
+        }}
+      ></div>
+
       <div className={styles.centerPart}>
-        <h1 style={{ fontSize: "1.875rem", fontWeight: "400" }}>
-          Hi, I'm Mohammed Mubarak
+        <h1>
+          Hi, I'm
+          <h1
+            style={{
+              color: "red",
+            }}
+          >
+            Mohammed Mubarak
+          </h1>
         </h1>
         <h3>Frontend Developer</h3>
         <p>
@@ -21,15 +86,14 @@ const Home = (props) => {
         </p>
         <p style={{ fontSize: "18px" }}>
           {/* Typical is a component for typing style */}
-          <Typical />
+          {/* <Typical /> */}
         </p>
         <div className={styles.scrollDown}>
-          <h1 onClick={() => redirectHandler("about")}>
+          <h4 onClick={() => redirectHandler("about")}>
             &darr; scroll down &darr;
-          </h1>
+          </h4>
         </div>
       </div>
-
       <div className={styles.box}>
         <div>
           <div className={styles.imagePosition}>
@@ -46,6 +110,7 @@ const Home = (props) => {
             height="654px"
             viewBox="0 0 160 190"
             xmlns="http://www.w3.org/2000/svg"
+            // opacity= "0.2"
           >
             <path
               fill="#FF0066"

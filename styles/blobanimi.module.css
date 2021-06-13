@@ -1,0 +1,39 @@
+.blob {
+  height: 510px;
+  width: 510px;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 0.09;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: circleanimation 6s linear infinite;
+  position: absolute;
+  left: -100px;
+  z-index: -1;
+}
+@keyframes circleanimation {
+  0%,
+  100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  34% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+  }
+  50% {
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+  }
+}
+
+/* footer part css styles */
+.caveEffect {
+  padding-top: 100px;
+  width: auto;
+  fill: "none";
+  transform: scale(1.2);
+  height: 100vh;
+}

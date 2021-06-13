@@ -1,6 +1,8 @@
 .homeDiv {
+  user-select: none;
+
   height: 100vh;
-  background-color: bisque;
+  /* background-color: bisque; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -9,6 +11,13 @@
   /* padding: 110px 150px; */
   line-height: 1.2;
   /* position: relative; */
+}
+.centerPart h1  {
+  font-size: 1.875rem;
+  font-weight: 500;
+  font-family: "Paprika";
+  letter-spacing: 1.5px;
+  display: flex;
 }
 
 .centerPart h3 {
@@ -35,19 +44,21 @@
   left: 1100px;
 }
 
-.scrollDown h1 {
+.scrollDown h4 {
   position: absolute;
   font-weight: 400;
   bottom: 80px;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 1px;
-  background-color: ivory;
-  height: 36px;
+  /* background-color: ivory; */
+  background-color: rgba(123, 115, 194, 0.808);
+  height: 34px;
   text-align: center;
   padding-top: 15px;
   border-radius: 15px;
   animation: MoveUpDown 1.35s linear infinite;
-  min-width: 200px;
+  /* min-width: 200px; */
+  width: 180px;
   cursor: pointer;
 }
 @keyframes MoveUpDown {
