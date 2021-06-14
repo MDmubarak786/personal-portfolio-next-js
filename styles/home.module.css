@@ -42,7 +42,7 @@
   margin-block-start: 1em;
   max-width: 460px;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   font-style: italic;
   color: #010101;
 }
@@ -54,10 +54,12 @@
   width: 500px;
 }
 
+/*My Image Position code */
 .imagePosition {
   position: absolute;
-  top: 100px;
-  left: 1100px;
+  top: 120px;
+  left: 1040px;
+  clip-path: circle(295px at 250px 279px);
 }
 
 .scrollDown h4 {

@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <h1>
-        do you like this style ,"center this part \& we will design this part
+        made with love by MK,"center this part \& we will design this part
         later"
       </h1>
       {/* <svg

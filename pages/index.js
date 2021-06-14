@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Home from "../components/Home";
-import About from "../components/About";
+import Skills from "../components/Skills";
 export default function Index() {
   return (
     <div>
@@ -17,7 +17,7 @@ export default function Index() {
       </Head>
       <div>
         <Home />
-        <About />
+        <Skills />
         <Footer />
       </div>
     </div>

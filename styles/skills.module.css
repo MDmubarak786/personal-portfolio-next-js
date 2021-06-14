@@ -1,6 +1,5 @@
-.aboutDiv {
+.skillsDiv {
   padding-top: 90px;
   height: 100vh;
-  /* height: calc(100vh - 80px); */
   background-color: aquamarine;
 }

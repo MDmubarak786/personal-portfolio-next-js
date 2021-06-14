@@ -14,7 +14,7 @@ export default function Header() {
       </h1>
       <ul className={styles.navlist}>
         <li onClick={() => changeHandler('home')}>Home</li>
-        <li onClick={() => changeHandler('about')}>About</li>
+        <li onClick={() => changeHandler('about')}>Skills</li>
         <li>Resume</li>
         <li>Projects</li>
       </ul>

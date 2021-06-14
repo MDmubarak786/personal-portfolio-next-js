@@ -13,3 +13,15 @@
 html {
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #cdd6e2;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track {
+  background: #161b22;
+}

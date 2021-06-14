@@ -93,12 +93,12 @@ const Home = (props) => {
         <div>
           <div className={styles.imagePosition}>
             {/* this place for add our image on blob that for this component  */}
-            {/* <Image
+            <Image
               src="/muba.png"
-              alt="Picture of the author" 
-              width={530}
-              height={530}
-            /> */}
+              alt="Picture of the author"
+              width={620}
+              height={600}
+            />
           </div>
           <svg
             width="554px"

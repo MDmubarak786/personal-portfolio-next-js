@@ -29,16 +29,17 @@
 .navlist li:hover {
   /* color: deepskyblue; */
   /* background-color: burlywood; */
-  border-bottom: 1.2px solid red;
+  /* border-bottom: 1.2px solid red; */
   /* background: linear-gradient(to bottom, #e8edec, #d2d1d3); */
   /* box-shadow: 0px 3px 20px 0px black; */
-  transform: scale(1.09);
+  transform: scale(1.2);
+  text-decoration: underline palevioletred;
 }
 
 .headingName {
   font-size: 40px;
   /* font-weight: 600; */
-  font-family: 'Akronim';
+  font-family: "Akronim";
 }
 .contact {
   display: flex;
@@ -61,4 +62,3 @@
   color: #fff;
   transform: translateY(-5px);
 }
-
