@@ -12,12 +12,24 @@
   line-height: 1.2;
   /* position: relative; */
 }
-.centerPart h1  {
+.centerPart h1 {
   font-size: 1.875rem;
   font-weight: 500;
   font-family: "Paprika";
   letter-spacing: 1.5px;
+  color: #010101;
   display: flex;
+}
+.centerPart h1 h1 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 167, 69, 1) 0%,
+    rgba(245, 127, 184, 1) 32%,
+    rgba(102, 157, 248, 1) 90%
+  );
+  background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+  color: transparent;
 }
 
 .centerPart h3 {
@@ -25,10 +37,14 @@
   color: rgb(119, 119, 121);
   margin-block-start: 0.1em;
 }
-.centerPart p {
+.centerPart h6 {
   display: block;
   margin-block-start: 1em;
   max-width: 460px;
+  font-weight: 500;
+  font-size: 15px;
+  font-style: italic;
+  color: #010101;
 }
 .box {
   /* background-color: black; */
@@ -47,7 +63,8 @@
 .scrollDown h4 {
   position: absolute;
   font-weight: 400;
-  bottom: 80px;
+  bottom: 30px;
+  left: 720px;
   font-size: 22px;
   line-height: 1px;
   /* background-color: ivory; */

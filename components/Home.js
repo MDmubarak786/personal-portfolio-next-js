@@ -37,10 +37,10 @@ const Home = (props) => {
           height: "150px",
           width: "400px",
           position: "absolute",
-          bottom: "0px",
-          left: "990px",
+          left: "950px",
           top: "0px",
-          backgroundColor: "black",
+          backgroundColor: "#fed845",
+          opacity: "0.47",
         }}
       ></div>
       <div
@@ -51,8 +51,8 @@ const Home = (props) => {
           position: "absolute",
           left: "900px",
           top: "500px",
-          backgroundColor: "violet",
-          opacity: "0.15",
+          backgroundColor: "#a062fe",
+          opacity: "0.12",
         }}
       ></div>
       <div
@@ -71,19 +71,14 @@ const Home = (props) => {
       <div className={styles.centerPart}>
         <h1>
           Hi, I'm
-          <h1
-            style={{
-              color: "red",
-            }}
-          >
-            Mohammed Mubarak
-          </h1>
+          <h1>Mohammed Mubarak</h1>
         </h1>
         <h3>Frontend Developer</h3>
-        <p>
-          Through constant practice & learning, I produce aesthetic software to
-          an extremely high standard.
-        </p>
+        <h6>
+          Through constant practice & learning. A web developer and programmer
+          living in Coimbatore, India. I am currently looking out for
+          interesting opportunities.
+        </h6>
         <p style={{ fontSize: "18px" }}>
           {/* Typical is a component for typing style */}
           {/* <Typical /> */}
