@@ -4,7 +4,7 @@ import Home from "../components/Home";
 import Skills from "../components/Skills";
 export default function Index() {
   return (
-    <div>
+    <>
       <Head>
         <title>Mohammed Mubarak | Personal Portfolio</title>
         <meta name="description" content="Mohammed Mubarak" />
@@ -15,11 +15,9 @@ export default function Index() {
           rel="stylesheet"
         />
       </Head>
-      <div>
-        <Home />
-        <Skills />
-        <Footer />
-      </div>
-    </div>
+      <Home />
+      <Skills />
+      <Footer />
+    </>
   );
 }

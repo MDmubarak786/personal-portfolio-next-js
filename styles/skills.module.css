@@ -1,5 +1,23 @@
 .skillsDiv {
-  padding-top: 90px;
+  padding: 75px 0 0 90px;
   height: 100vh;
+  font-size: 35px;
   background-color: aquamarine;
+}
+.skillsDiv ul {
+  /* padding-top: 50px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  transition: transform 150ms ease-in-out 0s;
+}
+.skillsDiv ul li {
+  height: 120px;
+  width: 220px;
+  /* padding-left: 20px; */
+  transition: transform 150ms ease-in-out 0s;
+}
+.skillsDiv ul li :hover {
+  transform: scale(0.9);
 }
