@@ -1,23 +1,60 @@
 .skillsDiv {
-  padding: 75px 0 0 90px;
+  padding: 185px 0 0 90px;
   height: 100vh;
   font-size: 35px;
   background-color: aquamarine;
+  
 }
 .skillsDiv ul {
   /* padding-top: 50px; */
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 200px;
+  height: 150px;
   transition: transform 150ms ease-in-out 0s;
 }
 .skillsDiv ul li {
-  height: 120px;
+  height: 100px;
   width: 220px;
-  /* padding-left: 20px; */
+  padding-left: 10px;
   transition: transform 150ms ease-in-out 0s;
 }
 .skillsDiv ul li :hover {
-  transform: scale(0.9);
+  transform: scale(0.98);
+}
+
+.Backpack {
+  width: 440px;
+  font-family: "Merienda", cursive;
+}
+.Backpack:hover {
+  background: linear-gradient(
+    50deg,
+    rgba(255, 167, 69, 1) 0%,
+    rgba(245, 127, 184, 1) 42%,
+    rgba(102, 157, 248, 1) 80%
+  );
+  background-clip: text;
+  color: transparent;
+}
+.aboutPara {
+  padding-left: 20px;
+  font-size: 30px;
+  line-height: 1.4;
+  font-family: "HCo Operator Mono";
+
+}
+.AboutHead {
+  width: 245px;
+  font-family: "HCo Operator Mono", cursive;
+}
+.AboutHead:hover {
+  background: linear-gradient(
+    50deg,
+    rgba(255, 167, 69, 1) 0%,
+    rgba(245, 127, 184, 1) 32%,
+    rgba(102, 157, 248, 1) 90%
+  );
+  background-clip: text;
+  color: transparent;
 }

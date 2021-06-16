@@ -2,10 +2,9 @@ import React from "react";
 import styles from "../styles/header.module.css";
 
 export default function Header() {
-
   const changeHandler = (value) => {
-    window.location.href = '#' + value;
-  }
+    window.location.href = "#" + value;
+  };
 
   return (
     <div className={styles.header}>
@@ -13,9 +12,9 @@ export default function Header() {
         MK<span>.</span>
       </h1>
       <ul className={styles.navlist}>
-        <li onClick={() => changeHandler('home')}>Home</li>
-        <li onClick={() => changeHandler('about')}>Skills</li>
-        <li>Resume</li>
+        <li onClick={() => changeHandler("home")}>Home</li>
+        <li onClick={() => changeHandler("skills")}>Skills</li>
+        <li onClick={() => changeHandler("contact")}>Contact</li>
         <li>Projects</li>
       </ul>
       <button className={styles.contact} onClick={() => console.log("Contact")}>
@@ -24,4 +23,3 @@ export default function Header() {
     </div>
   );
 }
-

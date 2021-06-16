@@ -84,7 +84,7 @@ const Home = (props) => {
           {/* <Typical /> */}
         </p>
         <div className={styles.scrollDown}>
-          <h4 onClick={() => redirectHandler("about")}>
+          <h4 onClick={() => redirectHandler("skills")}>
             &darr; scroll down &darr;
           </h4>
         </div>

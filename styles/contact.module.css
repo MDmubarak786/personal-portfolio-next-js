@@ -1,0 +1,87 @@
+.contact {
+  height: 100vh;
+  font-size: 35px;
+  background-color: lightyellow;
+  padding: 40px;
+}
+.contactHead {
+  font-family: "Merienda", cursive;
+  width: 200px;
+}
+
+.contactHead:hover {
+  background: linear-gradient(
+    50deg,
+    rgba(255, 167, 69, 1) 0%,
+    rgba(245, 127, 184, 1) 32%,
+    rgba(102, 157, 248, 1) 90%
+  );
+  background-clip: text;
+  color: transparent;
+}
+/* .contact ul {
+  display: inline-flex;
+  align-items: center;
+}
+.contact ul li {
+  width: 150px;
+  padding-top: 15px;
+  padding-left: 10px;
+} */
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left ul {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 400px;
+}
+.left ul li {
+  padding-left: 20px;
+}
+
+.email {
+  font-family: "Merienda", cursive;
+  width: 135px;
+  padding-top: 20px;
+}
+.emailadd {
+  padding-left: 20px;
+  font-size: 40px;
+  font-family: "HCo Operator Mono";
+}
+.email:hover {
+  background: linear-gradient(
+    50deg,
+    rgba(255, 167, 69, 1) 0%,
+    rgba(245, 127, 184, 1) 32%,
+    rgba(102, 157, 248, 1) 90%
+  );
+  background-clip: text;
+  color: transparent;
+}
+.mobile {
+  font-family: "Merienda", cursive;
+  padding-top: 20px;
+  width: 165px;
+}
+.mobilenum {
+  padding-left: 20px;
+  font-size: 40px;
+  font-family: "HCo Operator Mono";
+}
+.mobile:hover {
+  background: linear-gradient(
+    50deg,
+    rgba(255, 167, 69, 1) 0%,
+    rgba(245, 127, 184, 1) 32%,
+    rgba(102, 157, 248, 1) 90%
+  );
+  background-clip: text;
+  color: transparent;
+}
