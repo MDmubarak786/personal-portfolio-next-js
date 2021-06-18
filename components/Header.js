@@ -15,10 +15,13 @@ export default function Header() {
         <li onClick={() => changeHandler("home")}>Home</li>
         <li onClick={() => changeHandler("skills")}>Skills</li>
         <li onClick={() => changeHandler("contact")}>Contact</li>
-        <li>Projects</li>
+        <li onClick={() => changeHandler("project")}>Projects</li>
       </ul>
-      <button className={styles.contact} onClick={() => console.log("Contact")}>
-        Contact
+      <button
+        className={styles.contact}
+        onClick={() => changeHandler("contact")}
+      >
+        Hire Me
       </button>
     </div>
   );

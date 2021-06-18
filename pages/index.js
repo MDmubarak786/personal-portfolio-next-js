@@ -3,7 +3,8 @@ import Footer from "../components/Footer";
 import Home from "../components/Home";
 import Skills from "../components/Skills";
 import Contact from "../components/Contact";
-import "font-awesome/css/font-awesome.min.css";
+import Project from "../components/Project";
+
 export default function Index() {
   return (
     <>
@@ -28,6 +29,7 @@ export default function Index() {
       <Home />
       <Skills />
       <Contact />
+      <Project />
       <Footer />
     </>
   );

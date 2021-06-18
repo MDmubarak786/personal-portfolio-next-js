@@ -1,9 +1,9 @@
 .skillsDiv {
-  padding: 185px 0 0 90px;
+  /* padding: 185px 0 0 90px; */
+  padding: 100px;
   height: 100vh;
   font-size: 35px;
   background-color: aquamarine;
-  
 }
 .skillsDiv ul {
   /* padding-top: 50px; */
@@ -42,7 +42,6 @@
   font-size: 30px;
   line-height: 1.4;
   font-family: "HCo Operator Mono";
-
 }
 .AboutHead {
   width: 245px;

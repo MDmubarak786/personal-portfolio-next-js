@@ -24,10 +24,11 @@
 .emailadd {
   padding-left: 20px;
   font-size: 40px;
+  color: #010101;
   font-family: "HCo Operator Mono";
 }
 .emailadd::selection {
-  color: darkred;
+  color: darkslateblue;
   background: lightcoral;
 }
 
@@ -42,6 +43,7 @@
   font-size: 40px;
   font-family: "HCo Operator Mono";
   user-select: none;
+  color: #010101;
 }
 .contactHead:hover,
 .email:hover,
@@ -63,7 +65,7 @@
   color: black;
   text-decoration: none;
   padding-left: 30px;
-  transition: color 550ms ease-in-out;
+  transition: color 400ms ease-in-out;
 }
 
 .iconList a:hover {

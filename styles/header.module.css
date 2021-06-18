@@ -1,7 +1,7 @@
 .header {
   color: lightcoral;
-  background-color: darkmagenta;
-  /* background-color: white; */
+  /* background-color: darkmagenta; */
+  background-color: white;
   /* backdrop-filter: blur(10px);   */
   position: fixed;
   height: 80px;
@@ -19,46 +19,39 @@
 }
 .navlist li {
   font-size: 1.4em;
-  padding: 0 1.2em;
+  padding: 0 1.1em;
   border-bottom: 1.5px solid transparent;
   transition: all 200ms ease-in-out;
-  /* background-color: darkred; */
-  text-transform: uppercase;
   cursor: pointer;
 }
 .navlist li:hover {
-  /* color: deepskyblue; */
-  /* background-color: burlywood; */
-  /* border-bottom: 1.2px solid red; */
-  /* background: linear-gradient(to bottom, #e8edec, #d2d1d3); */
-  /* box-shadow: 0px 3px 20px 0px black; */
-  transform: scale(1.2);
-  text-decoration: underline palevioletred;
+  transform: scale(1.05);
+  text-decoration: underline lightcoral;
 }
 
 .headingName {
-  font-size: 40px;
+  font-size: 50px;
   /* font-weight: 600; */
   font-family: "Akronim";
+  color: black;
 }
 .contact {
   display: flex;
   width: 120px;
   height: 35px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  border: none;
   outline: none;
-  background-color: #00c9ff;
-  color: rgb(0, 0, 0);
+  background-color: peachpuff;
+  border: 3px solid black;
+  font-size: 19px;
+  color: black;
   transition: all 240ms ease-in-out;
   cursor: pointer;
 }
 .contact:hover {
-  background-color: #2ee5e5;
-  box-shadow: 0px 15px 20px rgba(30, 233, 199, 0.493);
-  color: #fff;
   transform: translateY(-5px);
+  border: none;
 }

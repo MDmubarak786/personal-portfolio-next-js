@@ -1,0 +1,42 @@
+.project {
+  height: 300vh;
+  background-color: peru;
+  padding: 100px;
+}
+.projectName {
+  font-family: "Merienda", cursive;
+  font-size: 50px;
+}
+.mainBox {
+  padding: 20px;
+  display: grid;
+  grid-gap: 1rem;
+  gap: 1rem;
+  grid-template-columns: auto auto auto;
+}
+.box1 {
+  height: 300px;
+  width: 500px;
+  background-color: royalblue;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px 0 rgb(22 27 34 / 30%);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.box1:hover {
+  transform: translateY(-6px);
+}
+.footerArea {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+}
+.footerButton {
+  width: 120px;
+  border-radius: 20px;
+  border: none;
+}
